@@ -108,7 +108,8 @@ namespace Data.Context
             modelBuilder.Entity<Book>()
                 .Property(b => b.BookImage)
                 .IsRequired()
-                .HasMaxLength(50);
+                .HasMaxLength(50)
+                .HasDefaultValue("default-image.png");
 
             modelBuilder.Entity<Author>()
              .HasKey(u => u.Id);
