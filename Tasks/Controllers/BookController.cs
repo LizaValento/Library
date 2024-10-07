@@ -83,6 +83,7 @@ namespace Tasks.Controllers
         }
 
         [HttpGet("Book/AddBook")]
+        [ServiceFilter(typeof(CustomAuthorizeAttribute))]
         public ActionResult AddBook()
         {
             return View();
