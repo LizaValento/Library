@@ -1,0 +1,12 @@
+global using Xunit;
+global using Business.Repositories.Classes;
+global using Data.Context;
+global using Data.Entities;
+global using Microsoft.EntityFrameworkCore;
+global using Moq;
+global using AutoMapper;
+global using System.Collections.Generic;
+global using Business.Models;
+global using Business.Services.Classes;
+global using Business.Transactions.Intarfaces;
+global using System;

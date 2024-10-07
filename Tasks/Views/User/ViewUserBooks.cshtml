@@ -1,0 +1,53 @@
+﻿@model Business.Models.BooksViewModel
+@using Business.Models
+
+<h3>Книги пользователя:</h3>
+@if (Model.Books != null && Model.Books.Any())
+{
+    <ul>
+        @foreach (var book in Model.Books)
+        {
+            <li>
+                <figure>
+                    <a href="@Url.Action("ViewBook", "Book", new { id = book.Id })">
+                        <img src="@book.BookImage" class="main-img" width="200" />
+                        <p>@book.Name</p>
+                    </a>
+                </figure>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>У пользователя нет книг.</p>
+}
+
+<div>
+    @if (Model.TotalPages > 1)
+    {
+        if (Model.CurrentPage > 1)
+        {
+            <a href="@Url.Action("ViewUserBooks", "User", new { page = Model.CurrentPage - 1 })">Предыдущая</a>
+            <span> | </span>
+        }
+
+        for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <a href="@Url.Action("ViewUserBooks", "User", new { page = i })"
+       class="@(i == Model.CurrentPage ? "active" : "")">@i</a>
+            @if (i < Model.TotalPages)
+            {
+                <span> | </span>
+            }
+        }
+
+        if (Model.CurrentPage < Model.TotalPages)
+        {
+            <span> | </span>
+            <a href="@Url.Action("ViewUserBooks", "User", new { page = Model.CurrentPage + 1 })">Следующая</a>
+        }
+    }
+</div>
+
+<a href="@Url.Action("Main", "Book")">Вернуться к списку книг</a>

@@ -1,0 +1,90 @@
+F:\Учеба\Практика_диплом\Tasks\Business\bin\Debug\net7.0\Business.deps.json
+F:\Учеба\Практика_диплом\Tasks\Business\bin\Debug\net7.0\Business.dll
+F:\Учеба\Практика_диплом\Tasks\Business\bin\Debug\net7.0\Business.pdb
+F:\Учеба\Практика_диплом\Tasks\Business\bin\Debug\net7.0\Data.dll
+F:\Учеба\Практика_диплом\Tasks\Business\bin\Debug\net7.0\Data.pdb
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\Business.csproj.CopyComplete
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\Business.dll
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\refint\Business.dll
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\Business.pdb
+F:\Учеба\Практика_диплом\Tasks\Business\obj\Debug\net7.0\ref\Business.dll
+F:\Interviews\Tasks\Business\bin\Debug\net7.0\Business.deps.json
+F:\Interviews\Tasks\Business\bin\Debug\net7.0\Business.dll
+F:\Interviews\Tasks\Business\bin\Debug\net7.0\Business.pdb
+F:\Interviews\Tasks\Business\bin\Debug\net7.0\Data.dll
+F:\Interviews\Tasks\Business\bin\Debug\net7.0\Data.pdb
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\Business.csproj.CopyComplete
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\Business.dll
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\refint\Business.dll
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\Business.pdb
+F:\Interviews\Tasks\Business\obj\Debug\net7.0\ref\Business.dll
+F:\Interviews\Library\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
+F:\Interviews\Library\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\Library\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
+F:\Interviews\Library\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
+F:\Interviews\Library\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
+F:\Interviews\Library\Business\obj\Debug\net7.0\Business.dll
+F:\Interviews\Library\Business\obj\Debug\net7.0\refint\Business.dll
+F:\Interviews\Library\Business\obj\Debug\net7.0\Business.pdb
+F:\Interviews\Library\Business\bin\Debug\net7.0\Business.deps.json
+F:\Interviews\Library\Business\bin\Debug\net7.0\Business.dll
+F:\Interviews\Library\Business\bin\Debug\net7.0\Business.pdb
+F:\Interviews\Library\Business\bin\Debug\net7.0\Data.dll
+F:\Interviews\Library\Business\bin\Debug\net7.0\Data.pdb
+F:\Interviews\Library\Business\obj\Debug\net7.0\Business.csproj.CopyComplete
+F:\Interviews\Library\Business\obj\Debug\net7.0\ref\Business.dll
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\Business.dll
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\refint\Business.dll
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\Business.pdb
+F:\Interviews\Library - копія (2)\Business\bin\Debug\net7.0\Business.deps.json
+F:\Interviews\Library - копія (2)\Business\bin\Debug\net7.0\Business.dll
+F:\Interviews\Library - копія (2)\Business\bin\Debug\net7.0\Business.pdb
+F:\Interviews\Library - копія (2)\Business\bin\Debug\net7.0\Data.dll
+F:\Interviews\Library - копія (2)\Business\bin\Debug\net7.0\Data.pdb
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\Business.csproj.CopyComplete
+F:\Interviews\Library - копія (2)\Business\obj\Debug\net7.0\ref\Business.dll
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\Business.dll
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\refint\Business.dll
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\Business.pdb
+F:\Interviews\LibraryCorrect\Business\bin\Debug\net7.0\Business.deps.json
+F:\Interviews\LibraryCorrect\Business\bin\Debug\net7.0\Business.dll
+F:\Interviews\LibraryCorrect\Business\bin\Debug\net7.0\Business.pdb
+F:\Interviews\LibraryCorrect\Business\bin\Debug\net7.0\Data.dll
+F:\Interviews\LibraryCorrect\Business\bin\Debug\net7.0\Data.pdb
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\Business.csproj.CopyComplete
+F:\Interviews\LibraryCorrect\Business\obj\Debug\net7.0\ref\Business.dll
+F:\Interviews\LibraryCorrect - копія (5)\Business\bin\Debug\net7.0\Business.deps.json
+F:\Interviews\LibraryCorrect - копія (5)\Business\bin\Debug\net7.0\Business.dll
+F:\Interviews\LibraryCorrect - копія (5)\Business\bin\Debug\net7.0\Business.pdb
+F:\Interviews\LibraryCorrect - копія (5)\Business\bin\Debug\net7.0\Data.dll
+F:\Interviews\LibraryCorrect - копія (5)\Business\bin\Debug\net7.0\Data.pdb
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\Business.csproj.AssemblyReference.cache
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\Business.AssemblyInfoInputs.cache
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\Business.AssemblyInfo.cs
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\Business.csproj.CoreCompileInputs.cache
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\Business.csproj.CopyComplete
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\Business.dll
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\refint\Business.dll
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\Business.pdb
+F:\Interviews\LibraryCorrect - копія (5)\Business\obj\Debug\net7.0\ref\Business.dll

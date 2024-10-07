@@ -1,0 +1,72 @@
+F:\Учеба\Практика_диплом\Tasks\Data\bin\Debug\net7.0\Data.deps.json
+F:\Учеба\Практика_диплом\Tasks\Data\bin\Debug\net7.0\Data.dll
+F:\Учеба\Практика_диплом\Tasks\Data\bin\Debug\net7.0\Data.pdb
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\Data.csproj.AssemblyReference.cache
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\Data.AssemblyInfoInputs.cache
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\Data.AssemblyInfo.cs
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\Data.csproj.CoreCompileInputs.cache
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\Data.dll
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\refint\Data.dll
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\Data.pdb
+F:\Учеба\Практика_диплом\Tasks\Data\obj\Debug\net7.0\ref\Data.dll
+F:\Interviews\Tasks\Data\bin\Debug\net7.0\Data.deps.json
+F:\Interviews\Tasks\Data\bin\Debug\net7.0\Data.dll
+F:\Interviews\Tasks\Data\bin\Debug\net7.0\Data.pdb
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\Data.csproj.AssemblyReference.cache
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\Data.AssemblyInfoInputs.cache
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\Data.AssemblyInfo.cs
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\Data.csproj.CoreCompileInputs.cache
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\Data.dll
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\refint\Data.dll
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\Data.pdb
+F:\Interviews\Tasks\Data\obj\Debug\net7.0\ref\Data.dll
+F:\Interviews\Library\Data\bin\Debug\net7.0\Data.deps.json
+F:\Interviews\Library\Data\bin\Debug\net7.0\Data.dll
+F:\Interviews\Library\Data\bin\Debug\net7.0\Data.pdb
+F:\Interviews\Library\Data\obj\Debug\net7.0\Data.csproj.AssemblyReference.cache
+F:\Interviews\Library\Data\obj\Debug\net7.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\Library\Data\obj\Debug\net7.0\Data.AssemblyInfoInputs.cache
+F:\Interviews\Library\Data\obj\Debug\net7.0\Data.AssemblyInfo.cs
+F:\Interviews\Library\Data\obj\Debug\net7.0\Data.csproj.CoreCompileInputs.cache
+F:\Interviews\Library\Data\obj\Debug\net7.0\Data.dll
+F:\Interviews\Library\Data\obj\Debug\net7.0\refint\Data.dll
+F:\Interviews\Library\Data\obj\Debug\net7.0\Data.pdb
+F:\Interviews\Library\Data\obj\Debug\net7.0\ref\Data.dll
+F:\Interviews\Library - копія (2)\Data\bin\Debug\net7.0\Data.deps.json
+F:\Interviews\Library - копія (2)\Data\bin\Debug\net7.0\Data.dll
+F:\Interviews\Library - копія (2)\Data\bin\Debug\net7.0\Data.pdb
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\Data.csproj.AssemblyReference.cache
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\Data.AssemblyInfoInputs.cache
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\Data.AssemblyInfo.cs
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\Data.csproj.CoreCompileInputs.cache
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\Data.dll
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\refint\Data.dll
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\Data.pdb
+F:\Interviews\Library - копія (2)\Data\obj\Debug\net7.0\ref\Data.dll
+F:\Interviews\LibraryCorrect\Data\bin\Debug\net7.0\Data.deps.json
+F:\Interviews\LibraryCorrect\Data\bin\Debug\net7.0\Data.dll
+F:\Interviews\LibraryCorrect\Data\bin\Debug\net7.0\Data.pdb
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\Data.csproj.AssemblyReference.cache
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\Data.AssemblyInfoInputs.cache
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\Data.AssemblyInfo.cs
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\Data.csproj.CoreCompileInputs.cache
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\Data.dll
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\refint\Data.dll
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\Data.pdb
+F:\Interviews\LibraryCorrect\Data\obj\Debug\net7.0\ref\Data.dll
+F:\Interviews\LibraryCorrect - копія (5)\Data\bin\Debug\net7.0\Data.deps.json
+F:\Interviews\LibraryCorrect - копія (5)\Data\bin\Debug\net7.0\Data.dll
+F:\Interviews\LibraryCorrect - копія (5)\Data\bin\Debug\net7.0\Data.pdb
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\Data.csproj.AssemblyReference.cache
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\Data.AssemblyInfoInputs.cache
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\Data.AssemblyInfo.cs
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\Data.csproj.CoreCompileInputs.cache
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\Data.dll
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\refint\Data.dll
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\Data.pdb
+F:\Interviews\LibraryCorrect - копія (5)\Data\obj\Debug\net7.0\ref\Data.dll

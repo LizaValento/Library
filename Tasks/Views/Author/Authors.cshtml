@@ -1,0 +1,51 @@
+﻿@model AuthorViewModel
+@using Business.Models
+
+<a href="@Url.Action("Login", "Account")">Авторизация</a>
+<a href="@Url.Action("Register", "Account")">Регистрация</a>
+<br>
+<br>
+<a href="@Url.Action("Main", "Book")">Книги</a>
+<br>
+<h2>Авторы</h2>
+<br>
+<br>
+@if (User.IsInRole("Admin"))
+{
+    <a href="@Url.Action("AddAuthor", "Author")">Добавить автора</a>
+}
+
+@foreach (var author in Model.Authors)
+{
+    <figure>
+        <a href="@Url.Action("ViewAuthor", "Author", new { id = author.Id })">
+            <p>@author.FirstName @author.LastName</p>
+        </a>
+    </figure>
+}
+<div>
+    @if (Model.TotalPages > 1)
+    {
+        if (Model.CurrentPage > 1)
+        {
+            <a href="@Url.Action("Authors", "Author", new { page = Model.CurrentPage - 1 })">Предыдущая</a>
+            <span> | </span>
+        }
+
+        for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <a href="@Url.Action("Authors", "Author", new { page = i })"
+       class="@(i == Model.CurrentPage ? "active" : "")">@i</a>
+            @if (i < Model.TotalPages)
+            {
+                <span> | </span>
+            }
+        }
+
+        if (Model.CurrentPage < Model.TotalPages)
+        {
+            <span> | </span>
+            <a href="@Url.Action("Authors", "Author", new { page = Model.CurrentPage + 1 })">Следующая</a>
+        }
+    }
+</div>

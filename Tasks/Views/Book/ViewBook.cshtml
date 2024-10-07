@@ -1,0 +1,44 @@
+﻿@model Business.Models.BookModel
+@using Microsoft.AspNetCore.Authorization
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using System.Security.Claims
+
+@{
+    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+}
+
+<h2>Книга</h2>
+<img src="@Model.BookImage" width = "300"/>
+<p>Название:</p>
+<p>@Model.Name</p>
+<p>Автор:</p>
+<p>@Model.AuthorName @Model.AuthorLastName</p>
+<p>Жанр:</p>
+<p>@Model.Genre</p>
+<p>ISBN:</p>
+<p>@Model.ISBN</p>
+<p>Описание:</p>
+<p>@Model.Description</p>
+
+@if(Model.UserId.ToString() != userId)
+{
+    @if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+    {
+	    <form action="@Url.Action("TakeBook", "Book", new { id = Model.Id })" method="post">
+		    <input type="submit" value="Взять книгу" />
+	    </form>
+    }
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <form action="@Url.Action("DeleteBook", "Book", new { id = Model.Id })" method="post">
+        <input type="submit" value="Удалить" />
+    </form>
+}
+@if (User.IsInRole("Admin"))
+{
+    <a href="@Url.Action("UpdateBook", "Book", new { id = Model.Id })">Редактировать книгу</a>
+}
+
+<a href="@Url.Action("Main", "Book")">Вернуться к списку книг</a>

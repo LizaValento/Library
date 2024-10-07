@@ -1,0 +1,31 @@
+﻿@model BooksViewModel
+@using Business.Models
+
+<h2>Поиск книг</h2>
+
+<h3>Поиск по названию</h3>
+<form method="post" action="@Url.Action("SearchByTitle", "Book")">
+    <input type="text" name="Name" placeholder="Введите название книги" />
+    <button type="submit">Поиск</button>
+</form>
+
+
+<h3>Поиск по ISBN</h3>
+<form method="post" action="@Url.Action("SearchByISBN", "Book")">
+    <input type="text" name="ISBN" placeholder="Введите ISBN" />
+    <button type="submit">Поиск</button>
+</form>
+
+<h3>Фильтрация</h3>
+<h3>По жанру</h3>
+<form method="post" action="@Url.Action("GenreFilter", "Book")">
+    <input type="text" name="Genre" placeholder="Введите название жанра" />
+    <button type="submit">Поиск</button>
+</form>
+
+<h3>По автору</h3>
+<form method="post" action="@Url.Action("AuthorFilter", "Book")">
+    <input type="text" name="AuthorName" placeholder="Введите фамилию автора" />
+    <input type="text" name="AuthorLastName" placeholder="Введите имя автора" />
+    <button type="submit">Поиск</button>
+</form>

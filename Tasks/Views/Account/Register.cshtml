@@ -1,0 +1,30 @@
+﻿@model RegisterModel
+@using Business.Models
+
+<h2>Регистрация</h2>
+
+<form method="post" action="@Url.Action("Register", "Account")">
+    <div>
+        @Html.LabelFor(model => model.Nickname)
+        @Html.TextBoxFor(model => model.Nickname)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.FirstName)
+        @Html.TextBoxFor(model => model.FirstName)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.LastName)
+        @Html.TextBoxFor(model => model.LastName)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Password)
+        @Html.TextBoxFor(model => model.Password, new { type = "password" })
+    </div>
+    <div>
+        @Html.LabelFor(model => model.ConfirmPassword)
+        @Html.TextBoxFor(model => model.ConfirmPassword, new { type = "password" })
+    </div>
+    <button type="submit">Зарегистрироваться</button>
+</form>
+
+<a href="@Url.Action("Login")">Уже есть аккаунт? Войти</a>

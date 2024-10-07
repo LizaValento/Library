@@ -1,0 +1,18 @@
+﻿@model LoginModel
+@using Business.Models
+
+<h2>Авторизация</h2>
+
+<form method="post" action="@Url.Action("Login", "Account")">
+    <div>
+        @Html.LabelFor(model => model.Nickname)
+        @Html.TextBoxFor(model => model.Nickname)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Password)
+        @Html.TextBoxFor(model => model.Password, new { type = "password" })
+    </div>
+    <button type="submit">Войти</button>
+</form>
+
+<a href="@Url.Action("Index")">Вернуться к списку пользователей</a>

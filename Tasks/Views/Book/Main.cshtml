@@ -1,0 +1,80 @@
+﻿@model BooksViewModel
+@using Business.Models
+@using Microsoft.AspNetCore.Authorization
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+{
+    <form action="@Url.Action("Logout", "Account")" method="post">
+        @Html.AntiForgeryToken()
+        <input type="submit" value="Выход" />
+    </form>
+}
+else
+{
+    <a href="@Url.Action("Login", "Account")">Авторизация</a>
+    <a href="@Url.Action("Register", "Account")">Регистрация</a>
+}
+
+@if (HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+{
+    <a href="@Url.Action("ViewUserBooks", "User")">Мои книги</a>
+}
+<br>
+<a href="@Url.Action("Search", "Book")">Поиск и фильтрация</a>
+<br>
+<a href="@Url.Action("Authors", "Author")">Авторы</a>
+<br>
+
+<h2>Книги</h2>
+<br>
+<br>
+@if (User.IsInRole("Admin"))
+{
+    <a href="@Url.Action("AddBook", "Book")">Добавить книгу</a>
+}
+
+@if (Model.Books != null && Model.Books.Any())
+{
+    @foreach (var book in Model.Books)
+    {
+        <figure>
+            <a href="@Url.Action("ViewBook", "Book", new { id = book.Id })">
+                <img src="@book.BookImage" class="main-img" width="200" />
+                <p>@book.Name</p>
+                <p>@book.AuthorName @book.AuthorLastName</p>
+            </a>
+        </figure>
+    }
+}
+else
+{
+    <p>Книг нет в наличии.</p>
+}
+
+<div>
+    @if (Model.TotalPages > 1)
+    {
+        if (Model.CurrentPage > 1)
+        {
+            <a href="@Url.Action("Main", "Book", new { page = Model.CurrentPage - 1 })">Предыдущая</a>
+            <span> | </span>
+        }
+
+        for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <a href="@Url.Action("Main", "Book", new { page = i })"
+       class="@(i == Model.CurrentPage ? "active" : "")">@i</a>
+            @if (i < Model.TotalPages)
+            {
+                <span> | </span>
+            }
+        }
+
+        if (Model.CurrentPage < Model.TotalPages)
+        {
+            <span> | </span>
+            <a href="@Url.Action("Main", "Book", new { page = Model.CurrentPage + 1 })">Следующая</a>
+        }
+    }
+</div>

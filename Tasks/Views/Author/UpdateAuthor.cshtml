@@ -1,0 +1,18 @@
+﻿@model AuthorModel
+@using Business.Models
+
+<h2>Редактировать автора</h2>
+
+<form method="post" action="@Url.Action("UpdateAuthor", "Author", new { id = Model.Id })" enctype="multipart/form-data">
+	<p>Имя автора:</p>
+	@Html.TextBoxFor(model => model.FirstName)<br>
+	<p>Фамилия автора:</p>
+	@Html.TextBoxFor(model => model.LastName)<br>
+	<p>Страна:</p>
+	@Html.TextBoxFor(model => model.Country)<br>
+	<p>Дата рождения:</p>
+	@Html.TextBoxFor(model => model.DateOfBirth, "{0:yyyy-MM-dd}", new { @type = "date" })<br>
+	<button type="submit" class="buttons">Сохранить</button>
+</form>
+
+<a href="@Url.Action("Main", "Book")">Вернуться к списку книг</a>

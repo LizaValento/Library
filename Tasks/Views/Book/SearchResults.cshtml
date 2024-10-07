@@ -1,0 +1,47 @@
+﻿@model BooksViewModel
+@using Business.Models
+
+<h2>Результаты поиска</h2>
+
+@if (Model.Books != null && Model.Books.Any())
+{
+    <ul>
+        @foreach (var book in Model.Books)
+        {
+            <li>
+                <a href="@Url.Action("ViewBook", "Book", new { id = book.Id })">@book.Name</a>
+            </li>
+        }
+    </ul>
+
+    <div>
+        @if (Model.TotalPages > 1)
+        {
+            if (Model.CurrentPage > 1)
+            {
+                <a href="@Url.Action("SearchResults", new { page = Model.CurrentPage - 1 })">Предыдущая</a>
+                <span> | </span>
+            }
+
+            for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <a href="@Url.Action("SearchResults", new { page = i })"
+       class="@(i == Model.CurrentPage ? "active" : "")">@i</a>
+                @if (i < Model.TotalPages)
+                {
+                    <span> | </span>
+                }
+            }
+
+            if (Model.CurrentPage < Model.TotalPages)
+            {
+                <span> | </span>
+                <a href="@Url.Action("SearchResults", new { page = Model.CurrentPage + 1 })">Следующая</a>
+            }
+        }
+    </div>
+}
+else
+{
+    <p>Книги не найдены по вашему запросу.</p>
+}

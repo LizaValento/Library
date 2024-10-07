@@ -1,0 +1,24 @@
+﻿@model BookModel
+@using Business.Models
+
+<h2>Добавить книгу</h2>
+
+<form method="post" action="@Url.Action("AddBook", "Book")" enctype="multipart/form-data">
+	<input type="file" id="fileUpload" name="BookImage">
+	<p>Название:</p>
+	@Html.TextBoxFor(model => model.Name)<br>
+	<p>Имя автора:</p>
+	@Html.TextBoxFor(model => model.AuthorName)<br>
+	<p>Фамилия автора:</p>
+	@Html.TextBoxFor(model => model.AuthorLastName)<br>
+	<p>Жанр:</p>
+	@Html.TextBoxFor(model => model.Genre)<br>
+	<p>ISBN:</p>
+	@Html.TextBoxFor(model => model.ISBN)<br>
+	<p>Описание:</p>
+	@Html.TextBoxFor(model => model.Description)<br>
+	<button type="submit" class="buttons">Сохранить</button>
+</form>
+
+<a href="@Url.Action("Main", "Book")">Вернуться к списку книг</a>
+
